@@ -41,7 +41,7 @@ public class Factorial {
         for (n=BigInteger.ONE; n.compareTo(numb) == -1 || n.compareTo(numb) == 0; n = n.add(BigInteger.ONE) ){
             
             System.out.print(m + "*" + n + "= ");
-          m =  m.multiply(n);
+          m =  m.multiply(n); // m = m * n
             System.out.print(" " + m);
             System.out.print("  Then; \n");
         }   
